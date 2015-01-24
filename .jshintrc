@@ -1,0 +1,23 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "indent": 2,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "trailing": true,
+  "browser": true,
+  "jquery":true,
+  "globalstrict": true,
+  "globals": {
+    // DOM
+    "document": false,
+    "console": false,
+    "window": false,
+
+    // Webpack
+    "require": false,
+    "module": false
+  }
+}
