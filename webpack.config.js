@@ -4,6 +4,6 @@ module.exports = {
   },
   output: {
     path: '.',
-    filename: 'transitable.js'
+    filename: 'output.js'
   }
 };

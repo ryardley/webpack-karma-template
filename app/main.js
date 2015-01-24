@@ -1,3 +1,3 @@
-var Hello = require('./hello.js');
-var hello = new Hello();
-console.log(hello.talk());
+'use strict';
+var message = require('./hello.js');
+document.write(message);

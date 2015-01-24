@@ -15,12 +15,10 @@ module.exports = function(config) {
     frameworks: ["jasmine"],
     webpack: require('./webpack.config.js'),
     webpackMiddleware: {
-      // webpack-dev-middleware configuration
-      // i. e.
       noInfo: true
     },
     plugins: [
-      require("karma-webpack"),
+      require('karma-webpack'),
       'karma-jasmine',
       'karma-phantomjs-launcher'
     ]
